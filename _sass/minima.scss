@@ -1,0 +1,45 @@
+form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+#mc-embedded-subscribe-form {
+  .mc-field-group {
+    margin-top: 1rem;
+    label {
+      display: block;
+      margin-bottom: 0.5rem;
+      text-align: left;
+    }
+
+    input {
+      background: transparent;
+      border: 1px solid var(--global-paragraphTextColor);
+      font-size: 2rem;
+      padding: 0.25rem;
+      color: var(--global-paragraphTextColor);
+    }
+
+    input:not(.phonepart) {
+      width: 100%;
+    }
+
+    input.phonepart {
+      text-align: left;
+    }
+
+    div.phonefield {
+      text-align: left !important;
+      font-size: 2rem;
+    }
+  }
+  input.email-submit {
+    margin-top: 2rem;
+    background: var(--global-buttonBackgroundColor);
+    border: 0;
+    font-family: var(--global-paragraphFontFamily) !important;
+    font-size: 1.2rem;
+    padding: 1rem 1.5rem;
+    // border: 1px solid var(--global-paragraphTextColor);
+  }
+}
